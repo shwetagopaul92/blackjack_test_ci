@@ -39,3 +39,4 @@ def test_value_errors_raised():
 def test_value_errors_raised_nonstrinput():
     with pytest.raises(ValueError):
         card_score(1)
+        card_score(2)
